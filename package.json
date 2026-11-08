@@ -18,11 +18,20 @@
     "vue": "^3.5.29"
   },
   "devDependencies": {
+    "@types/chrome": "^0.3.7",
     "@wxt-dev/module-vue": "^1.0.3",
     "typescript": "^5.9.3",
     "vite": "^8.1.5",
     "vue-tsc": "^3.2.5",
-    "web-ext": "^10.5.0",
-    "wxt": "^0.21.3"
+    "web-ext": "^3.2.1",
+    "wxt": "^0.20.27"
+  },
+  "allowScripts": {
+    "core-js@2.6.12": true,
+    "core-js-pure@3.51.0": true,
+    "es5-ext@0.10.64": true,
+    "spawn-sync@1.0.15": true,
+    "dtrace-provider@0.8.8": true,
+    "esbuild@0.27.2": true
   }
 }
