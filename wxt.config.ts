@@ -15,6 +15,14 @@ export default defineConfig({
     ],
     host_permissions: [
       'https://task.faizhid.my.id/*'
-    ]
+    ],
+    browser_specific_settings: {
+      gecko: {
+        id: 'taskly-focus-tracker@faizhid.my.id',
+        data_collection_permissions: {
+          required: ['none'],
+        },
+      },
+    },
   }
 });
